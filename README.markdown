@@ -1,0 +1,3 @@
+#This is the first application for github and my server
+
+I hope it works...
