@@ -1,0 +1,13 @@
+<h1>Hello, Rails!</h1>
+<h2>Tutor: <%= @tutor%></h2>
+<h2>Limite: <%= @limite%></h2>
+<h2>Mensaje: <%= @mensaje%></h2>
+
+<p>Esta es mi primera vista</p>
+<% @limite.times do %>
+<p><%= @mensaje %></p>
+<% end %>
+
+<footer>
+<p>By: <%= @tutor %></p>
+</footer>
